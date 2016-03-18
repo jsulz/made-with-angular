@@ -1,11 +1,9 @@
 (function(){
 
-	angular.module('madeWithAngular', ['ui.router', 'ngResource']);
+	angular.module('madeWithAngular', ['ui.router', 'ngResource', 'ngSanitize']);
 
 	function loopController( $scope, Posts ){
 		
-		$scope.page_title = "hi";
-
 		Posts.query(function(res){
 			$scope.posts = res;
 		});
