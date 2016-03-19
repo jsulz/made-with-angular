@@ -1,0 +1,25 @@
+{
+  "name": "made-with-angular",
+  "version": "1.0.0",
+  "description": "A WordPress theme utilizing the WP REST API and Angular",
+  "main": "index.php",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsulz/made-with-angular.git"
+  },
+  "author": "Jared Sulzdorf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsulz/made-with-angular/issues"
+  },
+  "homepage": "https://github.com/jsulz/made-with-angular#readme"
+}
